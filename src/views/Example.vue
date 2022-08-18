@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex-container">
     Example
     <component :is="item" v-for="(item, index) in componentName" :key="index"></component>
   </div>
